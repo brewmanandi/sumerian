@@ -9,5 +9,3 @@
 **/.DS_Store
 
 dist/*
-src/sumerian-exports.json
-src/aws-exports.js
