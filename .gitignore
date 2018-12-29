@@ -1,5 +1,4 @@
-# Generated Amplify Files #
-**/amplify
+
 
 # npm packages
 **/node_modules
@@ -7,4 +6,3 @@
 # Mac OS
 **/.DS_Store
 
-dist/*
