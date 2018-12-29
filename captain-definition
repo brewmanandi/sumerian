@@ -11,5 +11,5 @@
                         "ENV PORT 80",
                         "EXPOSE 80",
                         "RUN apk update && apk add bash",
-                        "CMD [ \"bash\",  \"-C\",   \"npm\", \"start\" ]"
+                        "CMD [ \"./run.sh\" ]"
                     ] }
