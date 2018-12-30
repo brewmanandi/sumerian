@@ -39,6 +39,8 @@ if (process.env.CERT_FILE) {
   https = { key: cert, cert }
 }
 
+console.log("process.env: ", process.env);
+
 const serverConfig = {
   compress: true,
   clientLogLevel: 'info',
