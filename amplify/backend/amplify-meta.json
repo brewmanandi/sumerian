@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/xrsumerian-20181228153031-deployment/amplify-cfn-templates/auth/cognito5ea0bacc-cloudformation-template.yml",
 				"logicalId": "authcognito5ea0bacc"
 			},
-			"lastPushTimeStamp": "2018-12-28T14:33:54.910Z",
+			"lastPushTimeStamp": "2019-01-14T11:23:15.543Z",
 			"output": {
 				"AppClientSecret": "1665l9bk6eijo47ttkia8abf8p8gfsa6lap3tnl46rpmsm74emd0",
 				"UserPoolId": "eu-central-1_Gx8NKn0TL",
@@ -30,6 +30,24 @@
 				"UserPoolName": "cognito5ea0bacc_userpool_5ea0bacc"
 			},
 			"lastPushDirHash": "AfXb4tLCXFuOZ4+cxSQbCWE/cRM="
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/xrsumerian-20181228153031-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2019-01-14T11:23:15.546Z",
+			"output": {
+				"S3BucketSecureURL": "https://xrsumerian-20190114122151-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://xrsumerian-20190114122151-hostingbucket.s3-website.eu-central-1.amazonaws.com",
+				"Region": "eu-central-1",
+				"HostingBucketName": "xrsumerian-20190114122151-hostingbucket"
+			},
+			"lastPushDirHash": "sOv6yeQvdM67ax+9UpTIgPWiyhI="
 		}
 	}
 }
