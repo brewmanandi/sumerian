@@ -1,5 +1,5 @@
 {
-  "schemaVersion" :1,
+  "schemaVersion" :2,
 "dockerfileLines" :[
                         "FROM node:8.9.2-alpine",
                         "RUN mkdir -p /usr/src/app",
